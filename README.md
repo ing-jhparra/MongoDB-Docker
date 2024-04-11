@@ -66,11 +66,11 @@ services:
 
 <b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D</b> para cerrar.
 
-<p><b>Paso 6</b>. Asignar permisos de ejecución y ejecutar mongodb.sh
-   [dockeruser@debian ~]$ chmod u+x mongodb.sh
-   [dockeruser@debian ~]$ ./mongodb.sh</p>
+<p><b>Paso 6</b>. Asignar permisos de ejecución y ejecutar mongodb.sh</p>
+<p>[dockeruser@debian ~]$ chmod u+x mongodb.sh</p>
+<p>[dockeruser@debian ~]$ ./mongodb.sh</p>
 
-<p><b>Paso 7</b>. Listo, desde acá ya puede hacer uso de un entorno MongoDB.</p>
+<p><b>Paso 7</b>. Listo, desde ya, cuenta con un entorno MongoDB controlado para sus pruebas y/o desarrollo.</p>
 
 <h2><strong>Conceptualizando</strong></h2>
 <!-- Seccion de conceptos -->
