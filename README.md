@@ -3,6 +3,21 @@
     <img src="./extras/docker_mongodb.png" alt="Imagen de MongoDB y Docker"  />
 </p>
 
+<h2>Introducción</h2>
+<p>MongoDB en Docker: La combinación perfecta para una experiencia de desarrollo sin complicaciones.</p>
+
+<p>¿Cansado de instalaciones complejas y configuraciones tediosas? Con MongoDB en Docker, ¡olvídate de esos problemas! Experimenta una forma más sencilla y eficiente de ejecutar tu base de datos favorita.</p>
+
+<p>Docker te ofrece:<p>
+
+<p>
+<ul>
+<li>Entorno aislado: Cada contenedor MongoDB se ejecuta en su propio espacio, sin afectar a otros programas o     configuraciones.</li>
+<li>Portabilidad: Mueve tu base de datos entre diferentes máquinas sin problemas de compatibilidad.</li>
+<li>Escalabilidad: Aumenta o reduce la capacidad de tu base de datos de forma rápida y flexible.</li>
+<li>Facilidad de uso: Inicia y detén tu base de datos con un solo comando.</li>
+</li>Reproducibilidad: Comparte tus configuraciones y entornos con otros desarrolladores de forma precisa.</li>
+</ul></p>
 
 
 Los Pasos a continuacion seran realizado y probado en Debin (Codename:bullseye)
