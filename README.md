@@ -19,8 +19,8 @@
 </li>Reproducibilidad: Comparte tus configuraciones y entornos con otros desarrolladores de forma precisa.</li>
 </ul></p>
 
-
-<h2>Los Pasos a continuacion fueron realizado y probado en Debian (Codename:bullseye)</h2>
+<h2>Pasos a seguir para crear y poner en funcionamiento MongoDB en Docker</h2>
+<p><strong>Nota</strong> : Estos pasos fueron realizado y probado en un entorno de linux Debian (Codename:bullseye)</p>
 
 Paso 1. Creamos un directorio 
 [dockeruser@debian ~]$ mkdir mongodb-docker
