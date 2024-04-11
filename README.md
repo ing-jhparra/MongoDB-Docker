@@ -1,4 +1,4 @@
-<h1></strong>Procedimiento para crear un entorno de MongoDB en Docker<strong></h1>
+<h1><strong>Procedimiento para crear un entorno de MongoDB en Docker</strong></h1>
 <p align="center">
     <img src="./extras/docker_mongodb.png" alt="Imagen de MongoDB y Docker"  />
 </p>
