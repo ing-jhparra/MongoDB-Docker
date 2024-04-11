@@ -31,7 +31,7 @@
 <p><b>Paso 3</b>. Abrimos el archivo en modo "append" (Insertar)</p>
 <p>[dockeruser@debian ~]$ cat > docker-compose.yml</p>
 
-<p><b>Paso 4<b>. Copiar el codigo que sigue en el archivo docker-compose.yml</p>
+<p><b>Paso 4</b>. Copiar el codigo que sigue en el archivo docker-compose.yml</p>
 <pre>
 version: '2.2'
 
@@ -51,7 +51,7 @@ services:
       - "27017:27017"
 </pre>
 
-<b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D<b> para cerrar.
+<b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D</b> para cerrar.
 
 <p>Paso 5. Creamos un archivo shell script para ejecutar un conjunto de comandos</p>
 <p>[dockeruser@debian ~]$ touch mongodb.sh</p>
@@ -64,7 +64,7 @@ services:
     sudo docker exec -it monguito bash
 </pre>
 
-<b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D<b> para cerrar.
+<b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D</b> para cerrar.
 
 <p>Paso 6. Asignar permisos de ejecución y ejecutar mongo.sh</p>
 <p>[dockeruser@debian ~]$ chmod u+x mongo.sh</p>
