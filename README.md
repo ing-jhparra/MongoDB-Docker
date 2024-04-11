@@ -20,7 +20,7 @@
 </ul></p>
 
 
-Los Pasos a continuacion seran realizado y probado en Debin (Codename:bullseye)
+<h2>Los Pasos a continuacion fueron realizado y probado en Debian (Codename:bullseye)</h2>
 
 Paso 1. Creamos un directorio 
 [dockeruser@debian ~]$ mkdir mongodb-docker
