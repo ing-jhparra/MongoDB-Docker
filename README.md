@@ -22,16 +22,16 @@
 <h2>Pasos a seguir para crear y poner en funcionamiento MongoDB en Docker</h2>
 <p><b>Nota</b> : Estos pasos fueron realizado y probado en un entorno de linux Debian (Codename:bullseye)</p>
 
-<p>Paso 1. Creamos un directorio</p> 
+<p><b>Paso 1</b>. Creamos un directorio</p> 
 <p>[dockeruser@debian ~]$ mkdir mongodb-docker</p> 
 
-<p>Paso 2. Creamos un archivo de configuración YAML</p>
+<p><b>Paso 2</b>. Creamos un archivo de configuración YAML</p>
 <p>[dockeruser@debian ~]$ touch docker-compose.yml</p>
 
-<p>Paso 3. Abrimos el archivo en modo "append" (Insertar)</p>
+<p><b>Paso 3<b>. Abrimos el archivo en modo "append" (Insertar)</p>
 <p>[dockeruser@debian ~]$ cat > docker-compose.yml</p>
 
-<p>Paso 4. Copiar el codigo que sigue en el archivo docker-compose.yml</p>
+<p><b>Paso 4<b>. Copiar el codigo que sigue en el archivo docker-compose.yml</p>
 <p>version: '2.2'
 
 services:
