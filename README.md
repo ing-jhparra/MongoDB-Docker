@@ -23,7 +23,7 @@
 <p><b>Nota</b> : Estos pasos fueron realizado y probado en un entorno de linux Debian (Codename:bullseye)</p>
 
 <p><b>Paso 1</b>. Creamos un directorio</p> 
-<p>[dockeruser@debian ~]$ mkdir mongodb-docker</p> 
+<p>[dockeruser@debian ~] <code>$ mkdir mongodb-docker<code></p> 
 
 <p><b>Paso 2</b>. Creamos un archivo de configuración YAML</p>
 <p>[dockeruser@debian ~]$ touch docker-compose.yml</p>
@@ -32,7 +32,7 @@
 <p>[dockeruser@debian ~]$ cat > docker-compose.yml</p>
 
 <p><b>Paso 4<b>. Copiar el codigo que sigue en el archivo docker-compose.yml</p>
-<p>version: '2.2'
+<code>version: '2.2'
 
 services:
 
@@ -47,7 +47,8 @@ services:
       - ./monguitodata:/data/db
       - ./monguitodata/log:/var/log/mongodb/
     ports:
-      - "27017:27017"</p>
+      - "27017:27017"</code>
+
 
 <p></p>
 <p></p>
