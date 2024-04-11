@@ -20,20 +20,19 @@
 </ul></p>
 
 <h2>Pasos a seguir para crear y poner en funcionamiento MongoDB en Docker</h2>
-<p><strong>Nota</strong> : Estos pasos fueron realizado y probado en un entorno de linux Debian (Codename:bullseye)</p>
+<p><b>Nota</b> : Estos pasos fueron realizado y probado en un entorno de linux Debian (Codename:bullseye)</p>
 
-Paso 1. Creamos un directorio 
-[dockeruser@debian ~]$ mkdir mongodb-docker
+<p>Paso 1. Creamos un directorio</p> 
+<p>[dockeruser@debian ~]$ mkdir mongodb-docker</p> 
 
-Paso 2. Creamos un archivo de configuración YAML
-[dockeruser@debian ~]$ touch docker-compose.yml
+<p>Paso 2. Creamos un archivo de configuración YAML</p>
+<p>[dockeruser@debian ~]$ touch docker-compose.yml</p>
 
-Paso 3. Abrimos el archivo en modo "append" (Insertar) 
-[dockeruser@debian ~]$ cat > docker-compose.yml
+<p>Paso 3. Abrimos el archivo en modo "append" (Insertar)</p>
+<p>[dockeruser@debian ~]$ cat > docker-compose.yml</p>
 
-Paso 4. Copiar el codigo que sigue en el archivo docker-compose.yml
-
-version: '2.2'
+<p>Paso 4. Copiar el codigo que sigue en el archivo docker-compose.yml</p>
+<p>version: '2.2'
 
 services:
 
@@ -42,13 +41,28 @@ services:
     restart: always
     container_name: monguito
     environment:
-      - MONGODB_USER="user"
-      - MONGODB_PASS="pass"	
+      - MONGODB_USER="Defina aqui un usuario para el docker"
+      - MONGODB_PASS="Defina aqui un password para el usuario del docker"
     volumes:
       - ./monguitodata:/data/db
       - ./monguitodata/log:/var/log/mongodb/
     ports:
-      - "27017:27017"
+      - "27017:27017"</p>
+
+<p></p>
+<p></p>
+
+<p></p>
+<p></p>
+
+
+
+ 
+
+
+
+
+
 
 Nota: Para guardar el contendio ingrese una linea con [ENTER] y luego control D para cerrar.
 
