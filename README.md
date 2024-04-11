@@ -1,13 +1,6 @@
 Procedimiento para crear un entorno de MongoDB en Docker
 
-<span>![</span><span>Imagen de Mongo</span><span>]</span><span>(</span><span>https://github.com/ing-jhparra/MongoDB-Docker/blob/main/extras/docker_mongodb.png</span><span>)</span>
-
-<picture>
- <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE"> 
- <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="Imagen de Mongo" src="https://github.com/ing-jhparra/MongoDB-Docker/blob/main/extras/docker_mongodb.png">
-</picture>
-
+![Imagen de MongoDB y Docker](https://github.com/ing-jhparra/MongoDB-Docker/blob/main/extras/docker_mongodb.png)
 
 
 
