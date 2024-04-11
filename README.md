@@ -2,6 +2,13 @@ Procedimiento para crear un entorno de MongoDB en Docker
 
 ![Imagen de MongoDB y Docker](https://github.com/ing-jhparra/MongoDB-Docker/blob/main/extras/docker_mongodb.png)
 
+<p>
+  Me Ritam<br>
+  Nice to meet Ya!
+  <p align="right">
+    <img src="./extra/docker_mongodb.png" alt="hello-dark" height="220" width="210" />
+  </p>
+</p>
 
 
 Los Pasos a continuacion seran realizado y probado en Debin (Codename:bullseye)
