@@ -53,10 +53,10 @@ services:
 
 <b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D</b> para cerrar.
 
-<p>Paso 5. Creamos un archivo shell script para ejecutar un conjunto de comandos</p>
-<p>[dockeruser@debian ~]$ touch mongodb.sh</p>
+<p><b>Paso 5<b>. Creamos un archivo shell script para ejecutar un conjunto de comandos</p>
+<p>[dockeruser@debian ~]$ touch mongodbsh.sh</p>
 
-<p>El archivo <b>mongodb.sh<b> debe contener la siguiente linea</p>
+<p><b>Paso 6<b>. Ingresar las siguientes lineas al archvio <b>mongodbsh.sh<b></p>
 <pre>
     mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
     sudo docker-compose up -d
