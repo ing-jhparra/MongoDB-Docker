@@ -144,13 +144,13 @@ Paso 7.
 
 USAR MONGO A PLACER.
 
-Conceptualizando
-
+<h2>Conceptualizando</h2>
 <!-- Mis sitios favoritos de aprendizaje sobre desarrollo web -->
+
 <div>
   <ul>
-    <li><p>Docker : es como una caja que encierra una aplicación con todo lo que necesita para funcionar (código, librerías). La puedes mover fácilmente a distintas máquinas sin preocuparte por compatibilidad. Imagina Legos® para software: independientes, portables y apilables.</p></li>
-    <li><p>CSS-TricksMongoDB : es una base de datos NoSQL de código abierto. Almacena datos en documentos flexibles, como JSON, en lugar de tablas rígidas. Es fácil de usar, ideal para aplicaciones web y móviles, y escalable para grandes conjuntos de datos.</p></li>
+    <li><p><strong>Docker</strong> : es como una caja que encierra una aplicación con todo lo que necesita para funcionar (código, librerías). La puedes mover fácilmente a distintas máquinas sin preocuparte por compatibilidad. Imagina Legos® para software: independientes, portables y apilables.</p></li>
+    <li><p><strong>MongoDB</strong> : es una base de datos NoSQL de código abierto. Almacena datos en documentos flexibles, como JSON, en lugar de tablas rígidas. Es fácil de usar, ideal para aplicaciones web y móviles, y escalable para grandes conjuntos de datos.</p></li>
     <li>Traversy Media</li>
   </ul>
 </div>
