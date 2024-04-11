@@ -181,6 +181,6 @@ USAR MONGO A PLACER.
   <ul>
     <li><p><strong>Docker</strong>: es como una caja que encierra una aplicación con todo lo que necesita para funcionar (código, librerías). La puedes mover fácilmente a distintas máquinas sin preocuparte por compatibilidad. Imagina Legos® para software: independientes, portables y apilables.</p></li>
     <li><p><strong>MongoDB</strong>: es una base de datos NoSQL de código abierto. Almacena datos en documentos flexibles, como JSON, en lugar de tablas rígidas. Es fácil de usar, ideal para aplicaciones web y móviles, y escalable para grandes conjuntos de datos.</p></li>
-    <li><p><strong>Docker</strong></p></li>
+    <li><p><strong>YAML (Yet Another Markup Language)</strong> es un lenguaje de marcado para escribir archivos de configuración. Es fácil de leer y escribir, similar a JSON, pero con una sintaxis más flexible y expresiva. Se usa para definir estructuras de datos, como listas, objetos y propiedades, de forma legible para humanos.</p></li>
   </ul>
 </div>
