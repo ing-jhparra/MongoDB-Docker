@@ -70,9 +70,24 @@ services:
 <p>[dockeruser@debian ~]$ chmod u+x mongodb.sh</p>
 <p>[dockeruser@debian ~]$ ./mongodb.sh</p>
 
-<p><b>Paso 7</b>. Listo, desde ya, cuenta con un entorno MongoDB controlado para sus pruebas y/o desarrollo.</p>
+<p><b>Paso 7</b>. Ingresamos a Mongodb para realizar una prueba</p>
+<p>root@a1b8e9451acf:/# mongo</p>
 
-<h2><strong>Conceptualizando</strong></h2>
+<p><b>Paso 8</b>. Escribimos en la consola el comando para mostrar las base de datos</p>
+<p>> show dbs</p>
+
+<p><b>Paso 9</b>. Para salir de MongoDB escribimos</p>
+<p>> exit</p>
+
+<p><b>Paso 10</b>. Para salir del docker escribimos </p>
+<p>root@a1b8e9451acf:/# exit</p>
+
+<p><b>Paso 11</b>. Para detener el docker escribimos </p>
+<p>sudo docker compose stop</p> 
+
+<p><b>Paso 12</b>. Listo, desde ya, cuenta con un entorno MongoDB controlado para sus pruebas y/o desarrollo.</p>
+
+<h2><strong>Conceptualizando algunos terminos</strong></h2>
 <!-- Seccion de conceptos -->
 
 <div>
