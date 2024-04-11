@@ -32,94 +32,7 @@
 <p>[dockeruser@debian ~]$ cat > docker-compose.yml</p>
 
 <p><b>Paso 4<b>. Copiar el codigo que sigue en el archivo docker-compose.yml</p>
-<pre>version: '2.2'
-
-services:
-
-  mongo:
-    image: mongo:4.0.4
-    restart: always
-    container_name: monguito
-    environment:
-      - MONGODB_USER="Defina aqui un usuario para el docker"
-      - MONGODB_PASS="Defina aqui un password para el usuario del docker"
-    volumes:
-      - ./monguitodata:/data/db
-      - ./monguitodata/log:/var/log/mongodb/
-    ports:
-      - "27017:27017"</pre>
-
-
-<p></p>
-<p></p>
-
-<p></p>
-<p></p>
-
-
-
- 
-
-
-
-
-
-
-Nota: Para guardar el contendio ingrese una linea con [ENTER] y luego control D para cerrar.
-
-Paso 5. Creamos un archivo shell script para ejecutar un conjunto de comandos
-
-[dockeruser@debian ~]$ touch mongodb.sh
-
-Paso 5.1. Crear directorio para volumen de mongo
-
-[dockeruser@debian ~]$ mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
-
-Paso 5.2. Salimos del directorio
-
-[dockeruser@debian ~]$ cd
-
-Paso 5.3. Iniciamos el contendor
-
-[dockeruser@debian ~]$ sudo docker-compose up -d
-
-Paso 5.4. Mostrar mensaje
-
-[dockeruser@debian ~]$  echo "Monguito está iniciandose ......."
-
-Paso 5.5. Entramos al contenedor
-
-[dockeruser@debian ~]$ sudo docker exec -it monguito bash
-
-> Control + d
-_________________________________________________________
-Paso 6. Asignar permisos de ejecución y ejecutar mongo.sh
-> chmod u+x mongo.sh
-> ./mongo.sh 
-_______
-Paso 7. 
-
-
-
-
-CREANDO UN CONTENEDOR
-
-Instalar Mongo: 
-En la línea de comando.
-____________________________________________________________
-Paso 1. Crear documento de docker-compose.
-
-Opción 1.
-
-> Usar docker compose, visual estudio code, instalando la extensión de docker.
-
-Opción 2.
-
-> touch docker-compose.yml
-> cat > docker-compose.yml
-_____________________________________________
-Paso 2. Crear documento de docker-compose.yml:
-
+<pre>
 version: '2.2'
 
 services:
@@ -129,50 +42,35 @@ services:
     restart: always
     container_name: monguito
     environment:
-      - MONGODB_USER="user"
-      - MONGODB_PASS="pass"	
-      
+      - MONGODB_USER="Defina un usuario para el docker"
+      - MONGODB_PASS="Defina un password para el usuario del docker"
     volumes:
       - ./monguitodata:/data/db
       - ./monguitodata/log:/var/log/mongodb/
     ports:
       - "27017:27017"
-    
-____________________________________________________________
-paso 3. Crear archivos para correr comando en la la terminal:
+</pre>
 
-> touch mongo.sh
-__________________________________________
-Paso 4. Cargar comandos al archivo creado:
+<b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D<b> para cerrar.
 
-> cat > mongo.sh   	(Copiar y pegar los comandos que queremos se ejecuten automáticos)
+<p>Paso 5. Creamos un archivo shell script para ejecutar un conjunto de comandos</p>
+<p>[dockeruser@debian ~]$ touch mongodb.sh</p>
 
-#Crear carpeta para volumen de mongo:
-mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
+<p>El archivo <b>mongodb.sh<b> debe contener la siguiente linea</p>
+<pre>
+    mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
+    sudo docker-compose up -d
+    echo "Monguito está iniciandose ......."
+    sudo docker exec -it monguito bash
+</pre>
 
-cd
+<b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D<b> para cerrar.
 
-#Iniciar el contenedor:
-sudo docker-compose up -d
+<p>Paso 6. Asignar permisos de ejecución y ejecutar mongo.sh</p>
+<p>[dockeruser@debian ~]$ chmod u+x mongo.sh</p>
+<p>[dockeruser@debian ~]$ ./mongo.sh</p>
 
-#Mostrar mensaje:
-echo "Monguito está iniciandose ......."
-
-#entrar en el contenedor
-sudo docker exec -it monguito bash
-
-_______
-Paso 5.
-
-> Control + d
-_________________________________________________________
-Paso 6. Asignar permisos de ejecución y ejecutar mongo.sh
-> chmod u+x mongo.sh
-> ./mongo.sh 
-_______
-Paso 7. 
-
-USAR MONGO A PLACER.
+<p>Paso 6. Listo, desde acá ya puede hacer uso de un entorno MongoDB.</p>
 
 <h2><strong>Conceptualizando</strong></h2>
 <!-- Seccion de conceptos -->
