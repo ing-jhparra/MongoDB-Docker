@@ -22,7 +22,7 @@
 <h2>Pasos a seguir para crear y poner en funcionamiento MongoDB en Docker</h2>
 <p><b>Nota</b> : Estos pasos fueron realizado y probado en un entorno de linux Debian (Codename:bullseye)</p>
 
-<p><b>Paso 1</b>. Creamos un directorio</p> 
+<p><b>Paso 1</b>. Creamos un directorio para mantener un orden en su dispositivo de almacenamiento</p> 
 <p>[dockeruser@debian ~] $ mkdir mongodb-docker</p> 
 
 <p><b>Paso 2</b>. Creamos un archivo de configuración YAML</p>
@@ -53,10 +53,10 @@ services:
 
 <b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D</b> para cerrar.
 
-<p><b>Paso 5<b>. Creamos un archivo shell script para ejecutar un conjunto de comandos</p>
-<p>[dockeruser@debian ~]$ touch mongodbsh.sh</p>
+<p><b>Paso 5</b>. Creamos un archivo shell script para ejecutar un conjunto de comandos</p>
+<p>[dockeruser@debian ~]$ touch mongodb.sh</p>
 
-<p><b>Paso 6<b>. Ingresar las siguientes lineas al archvio <b>mongodbsh.sh<b></p>
+<p><b>Paso 6</b>. Ingresar las siguientes lineas al archvio <b>mongodb.sh</b></p>
 <pre>
     mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
     sudo docker-compose up -d
@@ -66,9 +66,9 @@ services:
 
 <b>Nota</b>: Para guardar el contendio ingrese una linea con <b>[ENTER]</b> y luego <b>control D</b> para cerrar.
 
-<p>Paso 6. Asignar permisos de ejecución y ejecutar mongo.sh</p>
-<p>[dockeruser@debian ~]$ chmod u+x mongo.sh</p>
-<p>[dockeruser@debian ~]$ ./mongo.sh</p>
+<p>Paso 6. Asignar permisos de ejecución y ejecutar mongodb.sh
+   [dockeruser@debian ~]$ chmod u+x mongodb.sh
+   [dockeruser@debian ~]$ ./mongodb.sh</p>
 
 <p>Paso 6. Listo, desde acá ya puede hacer uso de un entorno MongoDB.</p>
 
