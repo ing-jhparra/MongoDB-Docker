@@ -6,7 +6,7 @@ Procedimiento para crear un entorno de MongoDB en Docker
   Me Ritam<br>
   Nice to meet Ya!
   <p align="right">
-    <img src="./extra/docker_mongodb.png" alt="hello-dark" height="220" width="210" />
+    <img src="./extras/docker_mongodb.png" alt="hello-dark" height="220" width="210" />
   </p>
 </p>
 
