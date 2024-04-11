@@ -58,7 +58,7 @@ services:
 
 <p><b>Paso 6</b>. Ingresar las siguientes lineas al archvio <b>mongodb.sh</b></p>
 <pre>
-    mkdir monguitodata && cd monguitodata; cd monguitodata || mkdir log
+    mkdir monguitodata && cd monguitodata; mkdir log; cd ..
     sudo docker-compose up -d
     echo "Monguito está iniciandose ......."
     sudo docker exec -it monguito bash
