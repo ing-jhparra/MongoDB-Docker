@@ -1,4 +1,4 @@
-<h1>Procedimiento para crear un entorno de MongoDB en Docker</h1>
+<h1></strong>Procedimiento para crear un entorno de MongoDB en Docker<strong></h1>
 <p align="center">
     <img src="./extras/docker_mongodb.png" alt="Imagen de MongoDB y Docker"  />
 </p>
@@ -144,7 +144,7 @@ Paso 7.
 
 USAR MONGO A PLACER.
 
-<h2>Conceptualizando</h2>
+<h2><strong>Conceptualizando</strong></h2>
 <!-- Mis sitios favoritos de aprendizaje sobre desarrollo web -->
 
 <div>
@@ -154,7 +154,3 @@ USAR MONGO A PLACER.
     <li>Traversy Media</li>
   </ul>
 </div>
-
-
-
-MongoDB : es una base de datos NoSQL de código abierto. Almacena datos en documentos flexibles, como JSON, en lugar de tablas rígidas. Es fácil de usar, ideal para aplicaciones web y móviles, y escalable para grandes conjuntos de datos.
